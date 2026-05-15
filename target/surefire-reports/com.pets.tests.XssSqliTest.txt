@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.pets.tests.XssSqliTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.79 s <<< FAILURE! -- in com.pets.tests.XssSqliTest
-com.pets.tests.XssSqliTest.testXssSqliClientes -- Time elapsed: 9.751 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.01 s <<< FAILURE! -- in com.pets.tests.XssSqliTest
+com.pets.tests.XssSqliTest.testXssSqliClientes -- Time elapsed: 9.299 s <<< FAILURE!
 org.opentest4j.MultipleFailuresError: 
 XSS/SQLi en Clientes (C-I-05) — BUG-006 ABIERTO (2 failures)
 	org.opentest4j.AssertionFailedError: [FALLO SEGURIDAD] El registro con payload se guardó en la tabla. BUG-006 ==> expected: <false> but was: <true>
