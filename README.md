@@ -176,7 +176,7 @@ mvn test -Dtest=CrudMascotaTest -pl . --no-transfer-progress
 | 2 — Control de acceso | Usuarios `qa_vet` y `qa_recep` deben existir con sus roles asignados. |
 | 3 — Unicidad | `C-V-01` (cliente con cédula `1012345678`) y `MASC-001` (mascota) deben existir previamente para intentar duplicarlos. |
 | 4 — Bloqueo | `qa_bloqueo` debe existir **sin bloqueo activo**. Si quedó bloqueado de una ejecución anterior, desbloquearlo en `/admin/`. |
-| 5 — CRUD Mascota | `MASC-001` NO debe existir (la crea el test). `MASC-003` debe existir para el test de eliminación. |
+| 5 — CRUD Mascota | `MASC-002` NO debe existir (la crea el test). `MASC-003` debe existir para el test de eliminación. |
 
 ---
 
