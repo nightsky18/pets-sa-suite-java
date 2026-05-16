@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pets.tests.CrudMascotaTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.40 s -- in com.pets.tests.CrudMascotaTest
